@@ -1,3 +1,4 @@
+name: pyobistools
 channels:
   - conda-forge
   - defaults
@@ -6,13 +7,6 @@ dependencies:
 - pyworms
 - ckanapi
 - plotly
-- async
-- requests
-- pandas
-- numpy
-- pytest
 - pip
 - pip:
-  - git+https://github.com/iobis/pyxylookup.git#egg=pyxylookup
-  - git+https://github.com/iobis/obis-qc.git#egg=obisqc
-  - git+https://github.com/pieterprovoost/isodateparser.git#egg=isodateparser
+  - -r requirements.txt
